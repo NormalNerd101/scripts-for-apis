@@ -1,0 +1,68 @@
+# Python-specific
+__pycache__/
+*.pyc
+*.pyd
+*.egg
+.venv/  # Or venv/, env/, .env/ if you use those names
+venv/
+env/
+.env/
+dist/
+build/
+*.whl
+*.tar.gz
+*.egg-info
+.mypy_cache/  # For mypy type checker
+.pytest_cache/  # For pytest
+htmlcov/       # For coverage reports
+.coverage
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Editor/IDE-specific
+.idea/      # PyCharm
+.vscode/    # VS Code
+*.swp      # Vim swap files
+*~         # Backup files (usually from text editors)
+.cache      # Generic cache files
+
+# Logs and temporary files
+*.log
+*.tmp
+temp/
+tmp/
+*.bak
+
+# Data files (if large or frequently changing)
+data/  # Or specific data file patterns, e.g., data/*.csv if you don't want to ignore all of it
+*.csv.gz # Example: compressed data
+
+# Sensitive information (NEVER commit these!)
+.env  # Environment variables (use a template or other secure method)
+config.ini # Configuration files with secrets
+passwords.txt
+
+# Things that might be in your project but shouldn't be tracked
+.DS_Store
+.envrc
+
+# Example for specific files you want to keep
+!important_file.txt # Exclude this file from the ignore rule
+
+# For Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb~ # Backup files of Jupyter Notebooks
+
+# If you use Poetry
+.poetry/
+
+# If you use conda
+.conda/
+
+# If you use Docker
+.dockerignore
+
+# If you use nodejs
+node_modules/
